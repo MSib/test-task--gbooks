@@ -9,6 +9,7 @@ export {}
 declare module 'vue' {
   export interface GlobalComponents {
     Button: typeof import('primevue/button')['default']
+    Card: typeof import('primevue/card')['default']
     Form: typeof import('@primevue/forms/form')['default']
     HeaderMenu: typeof import('./src/components/HeaderMenu.vue')['default']
     InputText: typeof import('primevue/inputtext')['default']
